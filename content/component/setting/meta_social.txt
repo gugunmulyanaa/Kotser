@@ -1,0 +1,32 @@
+<meta property="place:location:latitude" content="-6.120222" /> <!-- Silahkan disesuaikan -->
+	<meta property="place:location:longitude" content="106.172071" /> <!-- Silahkan disesuaikan -->
+	<meta property="business:contact_data:street_address" content="Jl. Jend. Sudirman Sumur Pecung Kec. Serang Kota Serang" /> <!-- Silahkan disesuaikan -->
+	<meta property="business:contact_data:locality" content="Kota Serang" /> <!-- Silahkan disesuaikan -->
+	<meta property="business:contact_data:postal_code" content="42118" /> <!-- Silahkan disesuaikan -->
+	<meta property="business:contact_data:country_name" content="Indonesia" /> <!-- Silahkan disesuaikan -->
+	<meta property="business:contact_data:email" content="info@mail.serangkota.go.id" /> <!-- Silahkan disesuaikan -->
+	<meta property="business:contact_data:phone_number" content="+0254" /> <!-- Silahkan disesuaikan -->
+	<meta property="business:contact_data:website" content="<?=$this->e($social_url);?>" />
+
+	<meta property="og:type" content="website" /> <!-- Card type bisa di ganti article, website, blog dan profile -->
+	<meta property="profile:first_name" content="Pemkot" /> <!-- Silahkan disesuaikan -->
+	<meta property="profile:last_name" content="Serang" /> <!-- Silahkan disesuaikan -->
+	<meta property="profile:username" content="PemkotSerang" /> <!-- Silahkan disesuaikan -->
+	<meta property="og:title" content="<?=$this->e($social_mod);?> - <?=$this->e($social_title);?>" />
+	<meta property="og:description" content="<?=$this->e($social_desc);?>" />
+	<meta property="og:image" content="<?=$this->e($social_img);?>" />
+	<meta property="og:url" content="<?=$this->e($social_url);?>" />
+	<meta property="og:site_name" content="<?=$this->e($social_name);?>" />
+	<meta property="fb:admins" content="Facebook_ID" /> <!-- Silahkan disesuaikan -->
+
+	<meta name="twitter:card" content="summary" />  <!-- Card type jangan di ganti -->
+	<meta name="twitter:site" content="<?=$this->e($social_name);?>" />
+	<meta name="twitter:title" content="<?=$this->e($social_mod);?> - <?=$this->e($social_title);?>" />
+	<meta name="twitter:description" content="<?=$this->e($social_desc);?>" />
+	<meta name="twitter:creator" content="pemkotserang" /> <!-- Silahkan disesuaikan -->
+	<meta name="twitter:image:src" content="<?=$this->e($social_img);?>" />
+	<meta name="twitter:domain" content="<?=$this->e($social_url);?>" />
+
+	<meta itemprop="name" content="<?=$this->e($social_mod);?> - <?=$this->e($social_title);?>" />
+	<meta itemprop="description" content="<?=$this->e($social_desc);?>" />
+	<meta itemprop="image" content="<?=$this->e($social_img);?>" />
